@@ -1,0 +1,2 @@
+select payment_id,first_name,last_name from customer
+inner join payment on payment.customer_id = customer.customer_id;
